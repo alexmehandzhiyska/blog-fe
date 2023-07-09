@@ -1,0 +1,29 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "CSS",
+            "img": "css.svg"
+        },
+        {
+            "id": 2,
+            "name": "JavaScript",
+            "img": "js.png"
+        },
+        {
+            "id": 3,
+            "name": "Tailwind",
+            "img": "tailwind.png"
+        },
+        {
+            "id": 4,
+            "name": "Vue JS",
+            "img": "vue.png"
+        },
+        {
+            "id": 5,
+            "name": "React JS",
+            "img": "react.png"
+        }
+    ]
+}

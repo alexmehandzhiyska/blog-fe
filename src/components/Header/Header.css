@@ -1,0 +1,26 @@
+header {
+  border-bottom: 2px solid #EAEBEE;
+}
+header .header-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+header .header-content-wrapper .logo-wrapper h1 {
+  color: #5D47E1;
+}
+header .header-content-wrapper .nav-wrapper .nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-content-wrapper .nav-wrapper .nav-list-item {
+  margin: 0 30px;
+  list-style: none;
+}
+header .header-content-wrapper .nav-wrapper .nav-list-item .nav-list-link {
+  color: #2B2C34;
+  font-weight: bold;
+  text-decoration: none;
+}/*# sourceMappingURL=Header.css.map */

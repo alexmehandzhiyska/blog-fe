@@ -1,0 +1,45 @@
+@import '../../variables';
+
+header {
+    border-bottom: 2px solid #EAEBEE;
+
+    .header-content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+
+        .logo-wrapper {
+            h1 {
+                color: $secondary;
+            }
+        }
+    
+        .nav-wrapper {
+            .nav {
+                &-list {
+                    display: flex;
+                    justify-content: space-between;
+    
+                    &-item {
+                        margin: 0 30px;
+                        list: {
+                            style: none;
+                        }
+    
+                        .nav-list-link {
+                            color: $text-main;
+                            font: {
+                                weight: bold;
+                            }
+                            text: {
+                                decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

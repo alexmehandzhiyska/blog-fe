@@ -1,0 +1,42 @@
+@import '../../../variables';
+
+.categories-wrapper {
+    margin: 2em 0 5em 0;
+
+    .categories {
+        width: $default-width;
+        margin: $default-margin;
+
+        &-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            margin: 2em 0;
+            
+            .category {
+                width: 18%;
+                padding: 5em 0;
+                transition: 0.3s ease;
+                background: white;
+                border: {
+                    radius: 10px;
+                }
+
+                &-img {
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+
+            .category:hover {
+                color: white;
+                background: $secondary;
+            }
+        }
+    }
+}

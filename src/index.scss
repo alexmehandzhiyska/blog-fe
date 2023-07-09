@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import '_variables.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font: {
+        family: 'Plus Jakarta Sans', sans-serif;
+    }
+    background: {
+        color: $background;
+    }
+}
+
+.title {
+    margin: 0.5em 0;
+    font: {
+        size: 64px;
+    }
+    text: {
+        align: left;
+    }
+}
+
+.heading {
+    font: {
+        size: 24px;
+    }
+    text: {
+        transform: capitalize;
+    }
+}
+
+p {
+    color: $text-secondary;
+    font: {
+        size: 22px;
+    }
+    text: {
+        align: left;
+    }
+}
+
+a {
+    color: $text-main;
+    text: {
+        decoration: none;
+    }
+}
+
+.more-link {
+    font: {
+        size: 20px;
+        weight: bold;
+    }
+    text: {
+        transform: capitalize;
+    }
+}
+
+input, .btn {
+    padding: $default-padding;
+    font: {
+        size: 20px;
+    }
+    border: {
+        color: transparent;
+        radius: 10px;
+    }
+}
+
+.btn-primary {
+    color: $primary;
+    background: $secondary;
+}
+
+input {
+    width: 65%;
+}
+
+input::placeholder {
+    font: {
+        weight: thin;
+    }
+    color: #C0C0C0;
+}
+
+input:focus {
+    outline: none;
+}
