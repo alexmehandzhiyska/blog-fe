@@ -30,12 +30,17 @@ header {
     
                         .nav-list-link {
                             color: $text-main;
+                            transition: 0.2s ease;
                             font: {
                                 weight: bold;
                             }
                             text: {
                                 decoration: none;
                             }
+                        }
+
+                        .nav-list-link:hover {
+                            color: $secondary;
                         }
                     }
                 }

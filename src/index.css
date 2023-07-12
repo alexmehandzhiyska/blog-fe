@@ -19,12 +19,8 @@ body {
 
 p {
   color: #BDBABC;
-  font-size: 22px;
-  text-align: left;
-}
-
-.text {
   font-size: 20px;
+  text-align: left;
 }
 
 a {
@@ -39,9 +35,14 @@ a {
 }
 
 .more-link {
+  transition: 0.2s ease;
   font-size: 20px;
   font-weight: bold;
   text-transform: capitalize;
+}
+
+.more-link:hover {
+  color: #5D47E1;
 }
 
 input, .btn {
@@ -54,6 +55,15 @@ input, .btn {
 .btn-primary {
   color: #ffffff;
   background: #5D47E1;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  color: #5D47E1;
+  background: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #5D47E1;
 }
 
 input {
@@ -61,17 +71,14 @@ input {
 }
 
 input::-moz-placeholder {
-  font-weight: thin;
   color: #C0C0C0;
 }
 
 input:-ms-input-placeholder {
-  font-weight: thin;
   color: #C0C0C0;
 }
 
 input::placeholder {
-  font-weight: thin;
   color: #C0C0C0;
 }
 

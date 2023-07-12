@@ -21,6 +21,10 @@ header .header-content-wrapper .nav-wrapper .nav-list-item {
 }
 header .header-content-wrapper .nav-wrapper .nav-list-item .nav-list-link {
   color: #2B2C34;
+  transition: 0.2s ease;
   font-weight: bold;
   text-decoration: none;
+}
+header .header-content-wrapper .nav-wrapper .nav-list-item .nav-list-link:hover {
+  color: #5D47E1;
 }/*# sourceMappingURL=Header.css.map */
