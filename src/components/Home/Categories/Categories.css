@@ -5,11 +5,6 @@
   width: 80%;
   margin: 0 auto;
 }
-.categories-wrapper .categories-text {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .categories-wrapper .categories-content {
   display: flex;
   justify-content: space-between;

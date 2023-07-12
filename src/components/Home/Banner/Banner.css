@@ -11,11 +11,6 @@
   padding-left: 0.5em;
   border-left: 3px solid #2B2C34;
 }
-.banner-wrapper .banner .banner-text .banner-email-form {
-  display: flex;
-  justify-content: space-between;
-  width: 85%;
-}
 .banner-wrapper .banner .banner-img img {
   width: 130%;
   margin-left: -5em;

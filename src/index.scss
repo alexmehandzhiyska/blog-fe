@@ -42,11 +42,23 @@ p {
     }
 }
 
+.text {
+    font: {
+        size: 20px;
+    }
+}
+
 a {
     color: $text-main;
     text: {
         decoration: none;
     }
+}
+
+.heading-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .more-link {

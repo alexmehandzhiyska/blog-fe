@@ -1,0 +1,23 @@
+.newsletter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+.newsletter-wrapper .inbox-img-wrapper {
+  padding: 1.5em 2em 0 2em;
+  background: white;
+  border-radius: 50%;
+}
+.newsletter-wrapper .inbox-img-wrapper .inbox-img {
+  width: 6vw;
+}
+.newsletter-wrapper .heading {
+  margin-bottom: 0;
+  font-size: 36px;
+}
+.newsletter-wrapper .text {
+  margin-bottom: 2em;
+}/*# sourceMappingURL=Newsletter.css.map */

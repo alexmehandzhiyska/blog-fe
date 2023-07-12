@@ -1,0 +1,55 @@
+.articles-wrapper {
+  padding: 3em 0;
+  background: #FFFFFE;
+}
+.articles-wrapper .articles {
+  width: 80%;
+  margin: 0 auto;
+}
+.articles-wrapper .articles-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6%;
+  margin: 3em 0;
+}
+.articles-wrapper .articles-content .article {
+  width: 22%;
+  margin-bottom: 6em;
+  padding: 2em 1em;
+  transition: 0.2s ease;
+}
+.articles-wrapper .articles-content .article img {
+  width: 100%;
+}
+.articles-wrapper .articles-content .article .subheading {
+  text-align: left;
+}
+.articles-wrapper .articles-content .article .author {
+  display: flex;
+  align-items: center;
+}
+.articles-wrapper .articles-content .article .author img {
+  width: 65px;
+}
+.articles-wrapper .articles-content .article .author .author-info {
+  margin-left: 15px;
+}
+.articles-wrapper .articles-content .article .author .author-info p {
+  margin: 5px 0;
+  color: #2B2C34;
+  font-size: 18px;
+}
+.articles-wrapper .articles-content .article .author .author-info .author-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.articles-wrapper .articles-content .article .author .author-info .text-date {
+  margin: 0;
+  font-size: 14px;
+}
+.articles-wrapper .articles-content .article:hover {
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 9px 9px 5px -9px rgb(199, 199, 199);
+}/*# sourceMappingURL=Articles.css.map */

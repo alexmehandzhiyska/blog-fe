@@ -7,12 +7,6 @@
         width: $default-width;
         margin: $default-margin;
 
-        &-text {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
         &-content {
             display: flex;
             justify-content: space-between;

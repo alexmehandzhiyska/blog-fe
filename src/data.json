@@ -25,5 +25,47 @@
             "name": "React JS",
             "img": "react.png"
         }
+    ],
+    "articles": [
+        {
+            "id": 1,
+            "title": "Fundamentals of JavaScript",
+            "img": "js-fundamentals.svg",
+            "author": {
+                "name": "Dasteen",
+                "img": "author.svg"
+            },
+            "date": "Jan 10, 2022"
+        },
+        {
+            "id": 2,
+            "title": "Grid CSS Make your Life Easier",
+            "img": "grid-css.svg",
+            "author": {
+                "name": "Dasteen",
+                "img": "author.svg"
+            },
+            "date": "Jan 10, 2022"
+        },
+        {
+            "id": 3,
+            "title": "3 easy ways to center a div",
+            "img": "center-div.svg",
+            "author": {
+                "name": "Dasteen",
+                "img": "author.svg"
+            },
+            "date": "Jan 10, 2022"
+        },
+        {
+            "id": 4,
+            "title": "7 projects with JS you must try",
+            "img": "js-project.svg",
+            "author": {
+                "name": "Dasteen",
+                "img": "author.svg"
+            },
+            "date": "Jan 10, 2022"
+        }
     ]
 }
