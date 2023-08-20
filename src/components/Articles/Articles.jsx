@@ -16,7 +16,7 @@ const Articles = () => {
             <div className="articles">
                 <div className="heading-wrapper">
                     <h2 className="heading">Articles</h2>
-                    <a className="more-link" href="#">See all article <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon></a>
+                    <Link className="more-link" to="#">See all article <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon></Link>
                 </div>
 
                 <div className="articles-content">

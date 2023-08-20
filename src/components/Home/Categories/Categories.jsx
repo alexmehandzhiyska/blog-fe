@@ -1,4 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import data from '../../../data.json';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -14,7 +16,7 @@ const Categories = () => {
             <div className="categories">
                 <div className="heading-wrapper">
                     <h2 className="heading">Browse the category</h2>
-                    <a className="more-link" href="#">See all category <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon></a>
+                    <Link className="more-link" to="#">See all category <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon></Link>
                 </div>
 
                 <div className="categories-content">
